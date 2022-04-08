@@ -48,6 +48,10 @@ h2{
     align-items: center;
 }
 
+.fourth-section{
+    padding: 80px;
+}
+
 .header{
     display: flex;
     justify-content: space-around;
@@ -143,4 +147,36 @@ button{
     flex-wrap: wrap;
     margin-top: 50px;
     flex: auto;
+}
+
+.modal{
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-around;
+}
+
+.modal *{
+    color: #E5E7EB;
+}
+
+.modal p{
+    margin-top: 0;
+}
+
+button{
+    border: solid #E5E7EB;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.right-down{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
