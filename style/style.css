@@ -180,3 +180,12 @@ h3{
     justify-content: flex-end;
     align-items: center;
 }
+
+.footer{
+    background-color: #1F2937;
+    min-height: 90px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
