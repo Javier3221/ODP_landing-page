@@ -18,7 +18,8 @@ h2{
 .first-section,
 .body,
 .info-cards,
-.second-section{
+.second-section,
+.third-section{
     display: flex;
 }
 
@@ -38,6 +39,12 @@ h2{
     justify-content: flex-start;
     flex-direction: column;
     min-height: 400px;
+    align-items: center;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    justify-content: center;
     align-items: center;
 }
 
@@ -120,4 +127,20 @@ button{
 
 .info-box p{
     color: #1F2937;
+}
+
+.third-section p{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    flex: auto;
 }
