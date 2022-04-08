@@ -4,11 +4,41 @@
     font-family: 'roboto';
 }
 
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 50px;
+    justify-self: center;
+}
+
+.sign-up,
+.placeholder,
+.links,
+.first-section,
+.body,
+.info-cards,
+.second-section{
+    display: flex;
+}
+
+.body{
+    flex-direction: column;
+}
+
+
 .first-section{    
     background-color: #1F2937;
     margin: 0;
     min-height: 540px;
     flex-wrap: wrap;
+}
+
+.second-section{
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 400px;
+    align-items: center;
 }
 
 .header{
@@ -55,13 +85,6 @@ button{
     margin-left: 32px;
 }
 
-.sign-up,
-.placeholder,
-.links,
-.first-section{
-    display: flex;
-}
-
 .sign-up{
     justify-content: center;
 }
@@ -75,4 +98,26 @@ button{
     margin-left: 100px;
     margin-right: 10;
     flex: auto;
+}
+
+.image{
+    border: solid #3882F6;
+    border-radius: 15px;
+    min-height: 150px;
+}
+
+.info-cards{
+    gap: 50px;
+    justify-content: center;
+}
+
+.info-box{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 150px;
+    text-align: center;
+}
+
+.info-box p{
+    color: #1F2937;
 }
